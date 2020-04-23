@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports,require("react")):"function"==typeof define&&define.amd?define(["exports","react"],t):t(e.demoProviders={},e.react)}(this,function(e,t){var n=(t=t&&t.hasOwnProperty("default")?t.default:t).createContext();e.SettingsProvider=function(e){var r=e.children,i=t.useState({setting:1}),o=i[0],d=i[1];return console.log("Settings Provider Initiated"),h(n.Provider,{value:{settings:o,setSettings:d}},r)}});
+//# sourceMappingURL=providers.umd.js.map

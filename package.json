@@ -1,0 +1,16 @@
+{
+  "name": "module-example",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:hocs": "microbundle build --raw --cwd hocs",
+    "build:providers": "microbundle build --raw --cwd providers"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}

@@ -1,0 +1,4 @@
+# For the purpose of this demo include dist directories
+# dist/
+
+node_modules/
