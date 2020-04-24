@@ -17,9 +17,7 @@
   },
   "peerDependencies": {
     "react": ">= 16.8.x",
-    "react-dom": "^16.8.x"
-  },
-  "dependencies": {
+    "react-dom": "^16.8.x",
     "provider-example": "github:CrashyBang/provider-example"
   }
 }
