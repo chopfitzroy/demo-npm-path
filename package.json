@@ -8,7 +8,7 @@
   "umd:main": "dist/index.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "microbundle build"
+    "build": "microbundle build --jsx React.createElement"
   },
   "author": "",
   "license": "MIT",

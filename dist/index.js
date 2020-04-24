@@ -1,2 +1,2 @@
-var t=require("react"),e=require("provider-example/supersonic");exports.withSettings=function(n){return function(s){var r=t.useContext(e.SettingsContext);return h(n,Object.assign({},s,{settings:r.settings,setSettings:r.setSettings}))}};
+var e,t=require("react"),n=(e=t)&&"object"==typeof e&&"default"in e?e.default:e,r=require("provider-example/supersonic");exports.withSettings=function(e){return function(s){var i=t.useContext(r.SettingsContext);return n.createElement(e,Object.assign({},s,{settings:i.settings,setSettings:i.setSettings}))}};
 //# sourceMappingURL=index.js.map
