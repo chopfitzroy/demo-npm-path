@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports,require("react"),require("provider-example/supersonic")):"function"==typeof define&&define.amd?define(["exports","react","provider-example/supersonic"],t):t(e.demoHocs={},e.react,e.supersonic)}(this,function(e,t,n){e.withSettings=function(e){return function(i){var s=t.useContext(n.SettingsContext);return h(e,Object.assign({},i,{settings:s.settings,setSettings:s.setSettings}))}}});
+//# sourceMappingURL=index.umd.js.map

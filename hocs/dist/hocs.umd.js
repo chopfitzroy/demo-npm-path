@@ -1,2 +1,0 @@
-!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports,require("react")):"function"==typeof define&&define.amd?define(["exports","react"],t):t(e.demoHocs={},e.react)}(this,function(e,t){var n=("default"in t?t.default:t).createContext();e.withSettings=function(e){return function(i){var o=t.useContext(n);return h(e,Object.assign({},i,{settings:o.settings,setSettings:o.setSettings}))}}});
-//# sourceMappingURL=hocs.umd.js.map

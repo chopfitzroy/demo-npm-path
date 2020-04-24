@@ -1,16 +1,25 @@
 {
   "name": "module-example",
+  "amdName": "demoHocs",
   "version": "1.0.0",
   "description": "Demo",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "umd:main": "dist/index.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:hocs": "microbundle build --raw --cwd hocs",
-    "build:providers": "microbundle build --raw --cwd providers"
+    "build": "microbundle build"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "microbundle": "^0.11.0"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.x",
+    "react-dom": "^16.8.x"
+  },
+  "dependencies": {
+    "provider-example": "github:CrashyBang/provider-example"
   }
 }

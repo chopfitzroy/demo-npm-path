@@ -1,5 +1,5 @@
 import React, {useContext} from 'react'
-import { SettingsContext } from '../providers/settingsProvider'
+import { SettingsContext } from 'provider-example/supersonic'
 
 export function withSettings(Component) {
   const Wrapped = props => {
